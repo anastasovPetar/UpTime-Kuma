@@ -9,3 +9,6 @@ services:
     healthCheckPath: /
     autoDeploy: true
     diskMountPath: /app/data
+    envVars:
+      - key: PORT
+        value: 3001
