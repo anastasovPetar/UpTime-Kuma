@@ -8,10 +8,9 @@ services:
     dockerfilePath: Dockerfile
     healthCheckPath: /
     autoDeploy: true
-    disks
-      - name: uptime-kuma-data
-        mountPath: /app/data
-        sizeGB: 1
+    disk:
+      name: uptime-kuma-data
+      mountPath: /app/data
     envVars:
       - key: PORT
         value: 3001
