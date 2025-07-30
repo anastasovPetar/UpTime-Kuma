@@ -11,6 +11,7 @@ services:
     disk:
       name: uptime-kuma-data
       mountPath: /app/data
+      sizeGB: 1
     envVars:
       - key: PORT
         value: 3001
