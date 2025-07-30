@@ -2,7 +2,7 @@ services:
   - type: web
     name: uptime-kuma
     env: docker
-    repo: https://github.com/YOUR_USER/uptime-kuma-render
+    repo: https://github.com/anastasovPetar/UpTime-Kuma
     branch: main
     plan: starter # or standard if you need persistent disk
     dockerfilePath: Dockerfile
